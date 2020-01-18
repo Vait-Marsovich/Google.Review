@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="815530b0-a61e-44e0-8ddc-670d1740653e" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/app/build/intermediates/" />
+    <ignored path="$PROJECT_DIR$/app/build/outputs/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+          <provider editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/glennsayers/mapapp/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#942#1756#0" expanded="true" />
+                <element signature="e#1755#1756#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/color/common_signin_btn_text_dark.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/glennsayers/mapapp/MainActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="25" />
+    <option name="width" value="1400" />
+    <option name="height" value="781" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="dex-cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+              <item name="play-services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+              <item name="play-services" type="462c0819:PsiDirectoryNode" />
+              <item name="4.4.52" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+              <item name="play-services" type="462c0819:PsiDirectoryNode" />
+              <item name="4.4.52" type="462c0819:PsiDirectoryNode" />
+              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+              <item name="play-services" type="462c0819:PsiDirectoryNode" />
+              <item name="4.4.52" type="462c0819:PsiDirectoryNode" />
+              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MapApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AndroidMapsTutorial-master" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediates" type="462c0819:PsiDirectoryNode" />
+              <item name="exploded-aar" type="462c0819:PsiDirectoryNode" />
+              <item name="com.google.android.gms" type="462c0819:PsiDirectoryNode" />
+              <item name="play-services" type="462c0819:PsiDirectoryNode" />
+              <item name="4.4.52" type="462c0819:PsiDirectoryNode" />
+              <item name="classes.jar" type="ab9368bb:PsiFileNode" />
+              <item name="google" type="462c0819:PsiDirectoryNode" />
+              <item name="ads" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="815530b0-a61e-44e0-8ddc-670d1740653e" name="Default Changelist" comment="" />
+      <created>1579192302723</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579192302723</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="5" y="25" width="1400" height="781" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3298969" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Android Profiler" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="6" visible="true" weight="0.3280116" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ru/common_strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/values-ru/auth_strings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/classes.jar!/com/google/ads/AdRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/intermediates/exploded-aar/com.google.android.gms/play-services/4.4.52/res/color/common_signin_btn_text_dark.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/glennsayers/mapapp/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="113" column="6" lean-forward="true" selection-start-line="113" selection-start-column="6" selection-end-line="113" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#942#1756#0" expanded="true" />
+            <element signature="e#1755#1756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
