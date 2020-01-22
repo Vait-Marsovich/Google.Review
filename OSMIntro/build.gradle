@@ -9,6 +9,10 @@ apply plugin: 'com.android.application'
 buildscript {
 	repositories {
 		mavenCentral()
+		maven {
+			url 'https://maven.google.com/'
+			name 'Google'
+		}
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:+'
@@ -17,7 +21,7 @@ buildscript {
 
 android {
 	compileSdkVersion 24
-	buildToolsVersion "24"
+	buildToolsVersion '25.0.0'
 
 	defaultConfig {
 		// applicationId "YOUR.PACKAGE.NAME.HERE"
@@ -43,4 +47,11 @@ android {
 dependencies {
 	compile fileTree(dir: 'libs', include: ['*.jar'])
 	compile 'com.android.support:appcompat-v7:+'
+}
+
+repositories {
+	maven {
+		url 'https://maven.google.com/'
+		name 'Google'
+	}
 }

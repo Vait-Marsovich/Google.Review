@@ -10,9 +10,9 @@ import android.os.Bundle;
 
 public class OSM extends Activity {
     private MapView mapView;
-	private MapController mapController;
-	private ScaleBarOverlay mScaleBarOverlay;
-	
+    private MapController mapController;
+    private ScaleBarOverlay mScaleBarOverlay;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,6 +23,6 @@ public class OSM extends Activity {
         mapController = (MapController) this.mapView.getController();
         mapController.setZoom(8);
         GeoPoint point = new GeoPoint(51.5, 0);  // London, UK
-		mapController.setCenter(point);
+        mapController.setCenter(point);
     }
 }
