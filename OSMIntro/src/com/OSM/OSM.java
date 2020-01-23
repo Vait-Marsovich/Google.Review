@@ -22,7 +22,7 @@ public class OSM extends Activity {
         mapView.setMultiTouchControls(true);
         mapController = (MapController) this.mapView.getController();
         mapController.setZoom(8);
-        GeoPoint point = new GeoPoint(51.5, 0);  // London, UK
+        GeoPoint point = new GeoPoint(51.5], 0);  // London, UK
         mapController.setCenter(point);
     }
 }
