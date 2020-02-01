@@ -39,9 +39,9 @@ public class MainActivity extends Activity {
                 }
 
                 List<Marker> markers = new ArrayList<>();
-                markers.add(new Marker("Lotos-Plaza", 61.7752629, 34.30932264));
-                markers.add(new Marker("Petrozavodsk-Pass", 61.78441107282894, 34.34474783018232));
-                markers.add(new Marker("Univer", 61.786074626893836, 34.35267384164036));
+                markers.add(new Marker("Lotos-Plaza1", 61.7752629, 34.30932264));
+                markers.add(new Marker("Petrozavodsk-Pass1", 61.78441107282894, 34.34474783018232));
+                markers.add(new Marker("Univer1", 61.786074626893836, 34.35267384164036));
 
                 showMarkers(markers);
             }
@@ -62,7 +62,7 @@ public class MainActivity extends Activity {
     }
 
     private String prepareMarkerMessage(List<Marker> markers) {
-//        return getMarkersArray(markers) + "var lat;var lon;setMarkersAndAvatar(markers, 25.248772, 55.36103, 'https://cdn-new.flamp.us/default-avatar-m_100_100.png');";
+//        return getMarkersArray(markers) + "var lat;var lon;setMarkersAndAvatar(markers, 61.78441107282894, 34.34474783018232, 'https://cdn-new.flamp.us/default-avatar-m_100_100.png');";
         return getMarkersArray(markers) + "var lat; var lon; setMarkersAndAvatar(markers, null, null, null);";
     }
 

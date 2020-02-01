@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="fb69e6ba-29cc-4eca-a68a-6c59d1696d99" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="01a28dfc-1a23-48ac-90e9-6c850af25942" name="Default Changelist" comment="" />
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+<<<<<<< HEAD
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor" />
+=======
+  <component name="FUSProjectUsageTrigger">
+    <session id="1578534286">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
+            </state>
+          </provider>
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/res/layout/activity_main.xml">
+<<<<<<< HEAD
+          <provider selected="true" editor-type-id="text-editor" />
+=======
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            </state>
+          </provider>
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="26" />
+    <option name="width" value="1400" />
+    <option name="height" value="781" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="168" />
+    <option name="y" value="36" />
+    <option name="width" value="1424" />
+    <option name="height" value="990" />
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="tilemap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="2gis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="2gis" type="462c0819:PsiDirectoryNode" />
+              <item name="android-SDKs-for-tiles-master" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+<<<<<<< HEAD
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="fb69e6ba-29cc-4eca-a68a-6c59d1696d99" name="Default Changelist" comment="" />
+      <created>1580543435979</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580543435979</updated>
+=======
+      <changelist id="01a28dfc-1a23-48ac-90e9-6c850af25942" name="Default Changelist" comment="" />
+      <created>1580502084243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580502084243</updated>
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="5" y="26" width="1400" height="781" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32994923" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+=======
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32982087" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.329718" />
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+<<<<<<< HEAD
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor" />
+=======
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
+        </state>
+      </provider>
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+    </entry>
+  </component>
+</project>
