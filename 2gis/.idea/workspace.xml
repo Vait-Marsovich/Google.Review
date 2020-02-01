@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <list default="true" id="fb69e6ba-29cc-4eca-a68a-6c59d1696d99" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="01a28dfc-1a23-48ac-90e9-6c850af25942" name="Default Changelist" comment="" />
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
 =======
     <list default="true" id="01a28dfc-1a23-48ac-90e9-6c850af25942" name="Default Changelist" comment="" />
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
@@ -12,6 +16,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="FileEditorManager">
     <leaf>
@@ -24,6 +29,8 @@
         <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   <component name="FUSProjectUsageTrigger">
     <session id="1578534286">
       <usages-collector id="statistics.lifecycle.project">
@@ -56,19 +63,28 @@
               <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
             </state>
           </provider>
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/res/layout/activity_main.xml">
 <<<<<<< HEAD
+<<<<<<< HEAD
           <provider selected="true" editor-type-id="text-editor" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
         </entry>
       </file>
@@ -78,17 +94,23 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
 <<<<<<< HEAD
+<<<<<<< HEAD
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
     <option name="y" value="26" />
     <option name="width" value="1400" />
     <option name="height" value="781" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="168" />
     <option name="y" value="36" />
     <option name="width" value="1424" />
     <option name="height" value="990" />
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,7 +120,10 @@
     </navigator>
     <panes>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
 =======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
       <pane id="ProjectPane">
@@ -206,6 +231,7 @@
       </pane>
       <pane id="Scope" />
 <<<<<<< HEAD
+<<<<<<< HEAD
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,6 +239,8 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -220,6 +248,9 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   </component>
   <component name="RunDashboard">
@@ -240,22 +271,29 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
 <<<<<<< HEAD
+<<<<<<< HEAD
       <changelist id="fb69e6ba-29cc-4eca-a68a-6c59d1696d99" name="Default Changelist" comment="" />
       <created>1580543435979</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580543435979</updated>
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
       <changelist id="01a28dfc-1a23-48ac-90e9-6c850af25942" name="Default Changelist" comment="" />
       <created>1580502084243</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580502084243</updated>
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <frame x="5" y="26" width="1400" height="781" extended-state="0" />
     <editor active="true" />
@@ -273,6 +311,8 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
@@ -287,6 +327,9 @@
       <window_info anchor="bottom" id="TODO" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.329718" />
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Theme Preview" />
@@ -294,6 +337,7 @@
       <window_info anchor="right" id="Palette&#9;" />
     </layout>
   </component>
+<<<<<<< HEAD
 <<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -305,6 +349,8 @@
     <entry file="file://$PROJECT_DIR$/android-SDKs-for-tiles-master/app/src/main/java/com/example/tilemap/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor" />
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -322,6 +368,9 @@
           <caret line="147" column="40" selection-start-line="147" selection-start-column="40" selection-end-line="147" selection-end-column="40" />
         </state>
       </provider>
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
     </entry>
   </component>

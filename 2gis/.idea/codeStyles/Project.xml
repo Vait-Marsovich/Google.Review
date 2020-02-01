@@ -1,6 +1,7 @@
 <component name="ProjectCodeStyleConfiguration">
   <code_scheme name="Project" version="173">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <codeStyleSettings language="XML">
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="4" />
@@ -114,6 +115,8 @@
       </arrangement>
     </codeStyleSettings>
 =======
+=======
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
     <Objective-C-extensions>
       <file>
         <option name="com.jetbrains.cidr.lang.util.OCDeclarationKind" value="Import" />
@@ -139,6 +142,9 @@
         <pair source="c" header="h" fileNamingConvention="NONE" />
       </extensions>
     </Objective-C-extensions>
+<<<<<<< HEAD
+>>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
+=======
 >>>>>>> 0ff163fa9552aa11fb3e35a0719ff20d01d63835
   </code_scheme>
 </component>
