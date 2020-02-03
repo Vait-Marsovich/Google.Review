@@ -39,9 +39,9 @@ public class MainActivity extends Activity {
                 }
 
                 List<Marker> markers = new ArrayList<>();
-                markers.add(new Marker("Lotos-Plaza1", 61.7752629, 34.30932264));
-                markers.add(new Marker("Petrozavodsk-Pass1", 61.78441107282894, 34.34474783018232));
-                markers.add(new Marker("Univer1", 61.786074626893836, 34.35267384164036));
+                markers.add(new Marker("Lotos-Plaza", 61.7752629, 34.30932264));
+                markers.add(new Marker("Petrozavodsk-Pass", 61.78441107282894, 34.34474783018232));
+                markers.add(new Marker("Univer", 61.786074626893836, 34.35267384164036));
 
                 showMarkers(markers);
             }
