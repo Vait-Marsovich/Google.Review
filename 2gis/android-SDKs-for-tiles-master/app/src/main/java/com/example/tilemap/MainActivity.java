@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         map = (WebView) findViewById(R.id.mapView);
         map.setVerticalScrollBarEnabled(false);
         map.getSettings().setJavaScriptEnabled(true);
-        map.loadUrl("file:///android_asset/map_api.html");
+        map.loadUrl("https://2gis.ru/"); //file:///android_asset/map_api.html
         map.addJavascriptInterface(new MarkerWebInterface(getApplicationContext()), "android_callback");
         map.setWebViewClient(new WebViewClient(){
             @Override
