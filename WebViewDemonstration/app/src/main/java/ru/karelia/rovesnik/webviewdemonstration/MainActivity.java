@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView = findViewById(R.id.webView);
-        webView.loadUrl("https://www.hellomonday.com/");
+        webView.loadUrl("file:///android_asset/123.html"); //file:///android_asset/123.html
         webView.getSettings().setJavaScriptEnabled(true);
 
         WebViewClient webViewClient = new WebViewClient() {
