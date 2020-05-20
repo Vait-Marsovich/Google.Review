@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="utf-8" />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/allstyle.css" />
+
+  <head>
+    <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+
+    <script>
+      function MyFunction() {
+        var x = document.getElementById("menu");
+        x.style = "transform: translate(0%)";
+      }
+      function Close() {
+        var y = document.getElementById("menu");
+        y.style = "transform: translate(-100%)";
+      }
+    </script>
+
+    <title>PtzGO</title>
+
+    <style>
+      body {
+        background: url(img/minibackground.png);
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+        /*ОПтимизация под браузеры*/
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div id="menu">
+        <nav class="info">
+          <div>Проект выполнен учениками</div>
+          <div>Детского технопарка</div>
+          <div>"Кванториум Сампо"</div>
+        </nav>
+        <div class="kvantorium">kvantorium_sampo</div>
+        <div class="line"></div>
+        <div class="poddde">При поддержке</div>
+        <div class="pmup">ПМУП ”Агенство городского развития”</div>
+        <img class="pmup_image" src="img/podde.png" />
+        <div class="agr10">agr10.ru</div>
+        <div class="footer">
+          <button class="close" onclick="Close()">
+            <img
+              src="img/close.png"
+              alt="Menu"
+              title="Menu"
+              width="100"
+              height="100"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="box">
+      <h2>
+        <button
+          class="button"
+          style="
+            z-index: 105;
+            position: absolute;
+            margin-top: 27px;
+            right: 10px;
+          "
+        >
+          <img
+            src="img/search.png"
+            alt="Menu"
+            title="Menu"
+            width="60"
+            height="60"
+            style="position: absolute; margin-top: -4px; right: 10px;"
+          />
+        </button>
+      </h2>
+      <input
+        style="
+          background-color: black;
+          padding-left: 100px;
+          padding-right: 70px;
+          z-index: 101;
+          border: 0px solid;
+          margin: auto;
+        "
+        placeholder="Поиск...    "
+      />
+      <div class="boxbott" id="testup"></div>
+    </div>
+
+    <div>
+      <button class="info_button" onclick="MyFunction()">
+        <img
+          src="img/info.png"
+          alt="Info"
+          title="Info"
+          width="125"
+          height="125"
+          bottom
+          right
+        />
+      </button>
+    </div>
+    <!--<div
+      class="mesta"
+      style="overflow-y: scroll; height: 2900px; width: -1500px;"
+    >
+      <img src="img/mesta.png" />
+    </div>-->
+    <div class="mesta">
+      <a href="mesta/kalevala.html">
+        <img src="img/Калевала.png" alt="" width="450" height="450"
+      /></a>
+
+      <img src="img/Курган.png" alt="" width="450" height="450" />
+
+      <img src="img/Лотос_Плаза.png" alt="" width="450" height="450" />
+
+      <img src="img/Макси.png" alt="" width="450" height="450" />
+
+      <img src="img/Музей_ИЗО.png" alt="" width="450" height="450" />
+
+      <img src="img/Норвей_пуррк.png" alt="" width="450" height="450" />
+
+      <img src="img/Парк_аттрацкионов.png" alt="" width="450" height="450" />
+
+      <img src="img/Прятки_в_темноте.png" alt="" width="450" height="450" />
+
+      <img class="email" src="img/email.png" alt="" />
+    </div>
+  </body>
+</html>
