@@ -1,0 +1,1031 @@
+<style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            input{
+                position:fixed;
+                margin: 0 auto;
+                font-size: 30px;
+                width: 700px;
+                z-index: 100;
+                line-height: 100px;
+                border-color: red;
+                border-radius: 30px;
+                border-width: 3px;
+            }
+            #box{
+                font-size: 30px;
+                z-index: 101;
+                line-height: 100px;
+                position: fixed;
+                top: 30px;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+                margin: 0 auto;
+                height: 100px;
+                width: 700px;
+                z-index:100;
+            }
+            #box input{
+                text-align: right;
+            }
+            .button{
+                padding: 10px;
+                background-color: white;
+                border-color: white;
+                border: none;
+            }
+            #menu {
+              background-color: white;
+              position: fixed;
+              left: 0;
+              top: 0;
+              z-index: 99934567890987654356;
+              width: 70%;
+              height: 100%;
+              align-items: top;
+              justify-content: center;
+              transition: 0.8s;
+              transform: translateX(-100%);
+              border-radius: 0 40px 40px 0;
+              border-color: #c72d2d #c72d2d #c72d2d white;
+              border-width: 5px;
+              border-style: solid;
+            }
+            .menu-list {
+                padding-top: 10%;
+                padding-left: 100px;
+                color:black;
+                font-size: 35px;
+                z-index: 999;
+                display: flex;
+                justify-content: space-between;
+                align-items: right;
+                height: 40%;
+                flex-direction: column;
+                border-color: white white #c72d2d white;
+                border-style: solid;
+                height: 50%;
+            }
+            a{
+                font-family: 'Open Sans', sans-serif;
+                color: black;
+                font-size: 50px;
+            }
+            .menu-list a {
+              z-index: 999;
+              text-decoration: none;
+              font-weight: 900;
+              color: black;
+            }
+            .menu-list a:hover{
+                color:black;
+                text-decoration: none;
+            }
+            .close{
+                align-items: right;
+                flex-direction: column;
+                position: absolute;
+                top: 50%;
+                right: 0px;
+                z-index:969696;
+            }
+            .under{
+                background-color: white;
+                border-color: red;
+                border-width: 2px;
+                border-radius: 20px;
+                padding: 0 35px 2px 35px;
+                font-size: 25px;
+                z-index: 459;
+                position: fixed;
+                margin-top: 160px;
+                margin-left: 162px;
+                display: flex;
+            }
+            .under1{
+                background-color: white;
+                border-color: red;
+                border-width: 2px;
+                border-radius: 20px;
+                padding: 0 40px 2px 40px;
+                font-size: 25px;
+                z-index: 459;
+                position: fixed;
+                margin-top: 160px;
+                margin-left: 345px;
+                display: flex;
+            }
+            .under2{
+                background-color: white;
+                border-color: red;
+                border-width: 2px;
+                border-radius: 20px;
+                padding: 0 40px 2px 40px;
+                font-size: 25px;
+                z-index: 459;
+                position: fixed;
+                margin-top: 160px;
+                margin-left: 505px;
+                display: flex;
+            }
+            .under3{
+                background-color: white;
+                border-color: red;
+                border-width: 2px;
+                border-radius: 20px;
+                padding: 0 40px 2px 40px;
+                font-size: 25px;
+                z-index: 459;
+                position: fixed;
+                margin-top: 160px;
+                margin-left: 680px;
+            }
+            .under:hover{
+                background-color: #c72d2d;
+                color: white;
+                transition: 0.4s linear;
+            }
+            .under1:hover{
+                background-color: #c72d2d;
+                color: white;
+                transition: 0.4s linear;
+            }
+            .under2:hover{
+                background-color: #c72d2d;
+                color: white;
+                transition: 0.4s linear;
+            }
+            .under3:hover{
+                background-color: #c72d2d;
+                color: white;
+                transition: 0.4s linear;
+            }
+            .top{
+                font-size: 50px;
+                padding-left: 5%;
+                z-index: 2;
+            }
+            .kids{
+                font-size: 35px;
+                padding-left: 40%;
+                color: grey;
+                z-index: 2;
+            }
+            .karelia1{
+                font-size: 20px;
+                color: #c72d2d;
+                padding-left: 80%;
+                padding-top: 4%;
+                flex-direction: column;
+                align-items: right;
+                text-align: center;
+                z-index: 3;
+                position:fixed;
+                top:0;
+            }
+            .karelia2{
+                font-size: 20px;
+                color: #c72d2d;
+                padding-left: 80%;
+                padding-top: 8%;
+                flex-direction: column;
+                text-align: center;
+                align-items: right;
+                z-index: 3;
+                position:fixed;
+                top:0;
+            }
+            .karelia3{
+                font-size: 20px;
+                color: #c72d2d;
+                padding-left: 80%;
+                text-align: center;
+                padding-top: 12%;
+                flex-direction: column;
+                align-items: right;
+                z-index: 3;
+                position:fixed;
+                top:0;
+            }
+            .container{
+                padding: 0px;
+                margin: 0px;
+                width: 90%;
+                margin-left: 4%;
+                z-index: 9999:
+                position:relevant;
+                border-color: white white red white ;
+                border-style: solid;
+                border-radius:0 40px 0 0;
+            }
+            .footer{
+                position: relative;
+                width: 90%;
+                margin-left: 4%;
+                position: fixed;
+                padding-top:50%;
+                bottom:0%;
+                padding-left: 30%;
+            }
+            .help{
+                padding-top: 10%;
+            }
+            .help h1{
+                padding-left: 3%;
+                padding-top: 5%;
+                color: grey;
+            }
+            .bottom{
+                z-index: 4873434;
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                height: 5%;
+                border-radius: 75px 75px 0 0;
+                background-color:#c72d2d;
+                color: white;
+                display: flex;
+                text-align: center;
+            }
+            #list_cafe{
+                overflow-y: scroll;
+                width:100%;
+                height:50%;
+                background-color: white;
+                transition: 0.8s;
+                transform: translateY(300%);
+                z-index: 3463625462354623;
+                position:fixed;
+                border-color: #c72d2d #c72d2d white #c72d2d ;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 75px 75px 0 0 ;
+            }
+            #list_cafe .h1{
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+            #list_cafe .cafe_1{
+                padding-top: 5%;
+                right: 5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                padding-left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_cafe .cafe_1 .img{
+                z-index: 621536125362153;
+                position: absolute;
+                margin-left: 73%;
+                margin-top: -6%;
+                padding-top: 25px;
+                padding-right: 23px;
+                padding-bottom: 25px;
+                border-radius: 100px;
+                padding-left: 30px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_cafe .cafe_2{
+                top: 45%;
+                right:10%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 32%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_cafe .cafe_3{
+                top: 75%;
+                right:5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_beauty{
+                overflow-y: scroll; /* прокрутка по вертикали */
+                width:100%;
+                height:50%;
+                background-color: white;
+                transition: 0.8s;
+                transform: translateY(300%);
+                z-index: 3463625462354623;
+                position:fixed;
+                border-color: #c72d2d #c72d2d white #c72d2d ;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 75px 75px 0 0 ;
+            }
+            #list_museum{
+                overflow-y: scroll; /* прокрутка по вертикали */
+                width:100%;
+                height:50%;
+                background-color: white;
+                transition: 0.8s;
+                transform: translateY(300%);
+                z-index: 3463625462354623;
+                position:fixed;
+                border-color: #c72d2d #c72d2d white #c72d2d ;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 75px 75px 0 0 ;
+            }
+            #list_cinema{
+                overflow-y: scroll; /* прокрутка по вертикали */
+                width:100%;
+                height:50%;
+                background-color: white;
+                transition: 0.8s;
+                transform: translateY(300%);
+                z-index: 3463625462354623;
+                position:fixed;
+                border-color: #c72d2d #c72d2d white #c72d2d ;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 75px 75px 0 0 ;
+            }
+            #list_beauty .beauty_1{
+                padding-top: 5%;
+                right: 5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                padding-left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_beauty .beauty_1 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 65%;
+                margin-top: -8%;
+                padding-top: 3.5%;
+                padding-bottom: 4%;
+                border-radius: 120px;
+                padding-left: 45px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_beauty .beauty_2{
+                top: 45%;
+                right:10%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 32%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_beauty .beauty_2 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 70%;
+                margin-top: -8%;
+                padding-top: 4.3%;
+                padding-bottom: 2.2%;
+                border-radius: 120px;
+                padding-left: 40px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_beauty .beauty_3{
+                top: 75%;
+                right:5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_beauty .beauty_3 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 70%;
+                margin-top: -8%;
+                padding-top: 5.2%;
+                padding-bottom: 5.2%;
+                border-radius: 120px;
+                padding-left: 30px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_museum .museum_1{
+                padding-top: 5%;
+                right: 5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                padding-left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_museum .museum_1 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 60%;
+                margin-top: -8%;
+                padding-top: 3.5%;
+                padding-bottom: 4%;
+                border-radius: 120px;
+                padding-left: 45px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_museum .museum_2{
+                top: 45%;
+                right:10%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 32%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_museum .museum_2 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 65%;
+                margin-top: -8%;
+                padding-top: 4%;
+                padding-bottom: 3.2%;
+                border-radius: 120px;
+                padding-left: 39px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_museum .museum_3{
+                top: 75%;
+                right:5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_museum .museum_3 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 65%;
+                margin-top: -8%;
+                padding-top: 3.2%;
+                padding-bottom: 3.2%;
+                border-radius: 120px;
+                padding-left: 33px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_cinema .cinema_1{
+                padding-top: 5%;
+                right: 5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                padding-left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_cinema .cinema_1 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 61%;
+                margin-top: -6%;
+                padding-top: 3.5%;
+                padding-bottom: 3%;
+                border-radius: 120px;
+                padding-left: 32px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_cinema .cinema_2{
+                top: 45%;
+                right:10%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 32%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_cinema .cinema_2 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 65%;
+                margin-top: -4%;
+                padding-top: 4%;
+                padding-bottom: 3.2%;
+                border-radius: 120px;
+                padding-left: 39px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_cinema .cinema_3{
+                top: 75%;
+                right:5%;
+                position: absolute;
+                z-index: 23124155744344;
+                height: 35%;
+                width: 90%;
+                left: 5%;
+                border-style: solid;
+                border-color: white white #c72d2d white;
+            }
+            #list_cinema .cinema_3 .img{
+                z-index: 621536125362153;
+                position: fixed;
+                margin-left: 65%;
+                margin-top: -4.5%;
+                padding-top: 3.2%;
+                padding-bottom: 3.2%;
+                border-radius: 120px;
+                padding-left: 33px;
+                border-style: solid;
+                border-color: grey;
+            }
+            #list_places{
+                overflow-y: scroll; /* прокрутка по вертикали */
+                width: 100%;
+                height: 100%;
+                background-color: white;
+                transition-duration: 0.8s;
+                transform: translateY(300%);
+                z-index: 3463625462354623;
+                position:fixed;
+                border-color: #c72d2d #c72d2d white #c72d2d ;
+                border-style: solid;
+                border-width: 3px;
+                border-radius: 75px 75px 0 0 ;
+            }
+            #list_places Beach{
+                width: 100%;
+                top: 100px;
+                height: 100px;
+                transition: 1s;
+            }
+            .preloader{
+                position: fixed;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                z-index:123456789876543245678888765;
+                opacity: 1;
+                visibility: visible;
+            }
+            .loader{
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                border: 20px solid white;
+                border-top-color: red;
+                left: 50%;
+                top: 50%;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                animation: 1s spin infinite linear;
+            }
+            @keyframes spin{
+                from {
+                    transform: translate(-50%, -50%) rotate(0deg);
+                }
+                to {
+                    transform: translate(-50%, -50%) rotate(360deg);
+                }
+            }
+        </style>
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet">
+<head>
+        <script>
+            var x = screen.width;
+            var y = screen.height;
+            console.log(x);
+            console.log(y);
+            var beach = "http://static.maps.2gis.com/1.0?center=34.30748050799561,61.8328793597141&amp;zoom=14&amp;size="+x+','+y+"&markers=pmrdl,34.30748050799561,61.8328793597141";
+            var cafe1 = "http://static.maps.2gis.com/1.0?center=34.37159660023176,61.792550146130374&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.37159660023176,61.792550146130374";
+            var cafe2 = "http://static.maps.2gis.com/1.0?center=34.33965770442502,61.8011471357201&amp;zoom=16&amp;size="+x+","+y+"&markers=pmrdl,34.33965770442502,61.8011471357201";
+            var cafe3 = "http://static.maps.2gis.com/1.0?center=34.35353931040397,61.787408699680306&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.35353931040397,61.787408699680306";
+            var beauty1 = "http://static.maps.2gis.com/1.0?center=34.35243134267196,61.79682605924257&amp;zoom=14&amp;size="+x+','+y+"&markers=pmrdl,34.35243134267196,61.79682605924257~34.35096732852377,61.78543477067655";
+            var beauty2 = "http://static.maps.2gis.com/1.0?center=34.39838696553554,61.7841399152358&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.39838696553554,61.7841399152358";
+            var beauty3 = "http://static.maps.2gis.com/1.0?center=34.36446200413753,61.791388737111525&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.36446200413753,61.791388737111525";
+            var museum1 = "http://static.maps.2gis.com/1.0?center=34.37352267790985,61.79429118445153&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.37352267790985,61.79429118445153";
+            var museum2 = "http://static.maps.2gis.com/1.0?center=34.397875499999905,61.783031061620385&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.397875499999905,61.783031061620385";
+            var museum3 = "http://static.maps.2gis.com/1.0?center=34.33084394806564,61.78483365488437&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.33084394806564,61.78483365488437";
+            var cinema1 = "http://static.maps.2gis.com/1.0?center=34.3469,61.7849&amp;zoom=12&amp;size="+x+','+y+"&markers=pmrdl,34.36437211388781,61.791309574293585~34.37017061025767,61.77649663559679~34.30802955998377,61.77510151582119";
+            var cinema2 = "http://static.maps.2gis.com/1.0?center=34.34816281531487,61.793449870363&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.34816281531487,61.793449870363";
+            var cinema3 = "http://static.maps.2gis.com/1.0?center=34.39034849669977,61.775872352876064&amp;zoom=16&amp;size="+x+','+y+"&markers=pmrdl,34.39034849669977,61.775872352876064";
+            var map = "http://static.maps.2gis.com/1.0?center=34.3469,61.7849&amp;zoom=12&amp;size="+x+','+y;
+            function MyFunction() {
+             var x = document.getElementById("menu");
+             x.style = "transform: translate(0%)";
+            }
+            function Close() {
+             var y = document.getElementById("menu");
+             y.style = "transform: translate(-100%)";
+            }
+            function Cafe_close(){
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+            }
+            function Cafe_open(){
+                document.getElementById("list_cafe").style = "transform: translateY(100%)";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+            }
+            function Beauty_open(){
+                document.getElementById("list_beauty").style = "transform: translateY(100%)";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+            }
+            function Beauty_close(){
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+            }
+            function Museum_open(){
+                document.getElementById("list_museum").style = "transform: translateY(100%)";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+            }
+            function Museum_close(){
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+            }
+            function Cinema_open(){
+                document.getElementById("list_cinema").style = "transform: translateY(100%)";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+            }
+            function Cinema_close(){
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+
+            }
+            var i = 0;
+            function Places_open1(){
+                document.getElementById("list_places").style = "transform: translateY(50%)";
+                document.getElementById("read_more").style.color = 'white';
+                document.getElementById("button").disabled = true;
+                i = 0;
+            }
+            function Places_open2(){
+                    if (i == 1){
+                        document.getElementById("read_more").style.color = 'white';
+                        document.getElementById("list_places").style = "transform: translateY(300%)";
+                        document.getElementById("button").disabled = true;
+                        i = 0;
+                        document.getElementById("Beach").style.zIndex = "-1";
+                    }
+                    else {
+                        document.getElementById("list_places").style = "transform: translateY(15%)";
+                        document.getElementById("read_more").style.color = 'black';
+                        document.getElementById("button").disabled = false;
+                        i = 1;
+                    }
+            }
+            function Beach_open(){
+                var beach =  document.getElementById("Beach").style;
+                beach.zIndex = "652143526143512435214365213612536123";
+                var j = 0;
+                (function count(j){
+                    beach.opacity = j;
+                    if (j < 1.01){
+                        setTimeout(function() { count(j + 0.01); }, 5);
+                    }
+                })(0);
+                document.getElementById("list_places").style.opacity = 0;
+            }
+            function Beach_close(){
+                var beach1 = document.getElementById("Beach").style;
+                var places = document.getElementById("list_places").style;
+                places.opacity = 0;
+                beach1.zIndex = "1000000";
+                var k = 0;
+                (function count_close(k){
+                    places.opacity = k;
+                    if (k < 1.01){
+                        setTimeout(function() { count_close(k + 0.01); }, 5);
+                    }
+                })(0);
+            }
+            function show_Beach(){
+                document.getElementById("map_Beach").style.zIndex = "8";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("list_places").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById("map_Beach").src = beach;
+            }
+            function Cafe1_show(){
+                document.getElementById("Cafe1_map").style.zIndex = "10";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Cafe1_map').src = cafe1;
+            }
+            function Cafe2_show(){
+                document.getElementById("Cafe2_map").style.zIndex = "8";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Cafe2_map').src = cafe2;
+            }
+            function Cafe3_show(){
+                document.getElementById("Cafe3_map").style.zIndex = "8";
+                document.getElementById("list_cafe").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Cafe3_map').src = cafe3;
+            }
+            function Beauty1_show(){
+                document.getElementById("Beauty1_map").style.zIndex = "8";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Beauty1_map').src = beauty1;
+            }
+            function Beauty2_show(){
+                document.getElementById("Beauty2_map").style.zIndex = "8";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Beauty2_map').src = beauty2;
+            }
+            function Beauty3_show(){
+                document.getElementById("Beauty3_map").style.zIndex = "8";
+                document.getElementById("list_beauty").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Beauty3_map').src = beauty3;
+            }
+            function Museum1_show(){
+                document.getElementById("Museum1_map").style.zIndex = "8";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Museum1_map').src = museum1;
+            }
+            function Museum2_show(){
+                document.getElementById("Museum2_map").style.zIndex = "8";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Museum2_map').src = museum2;
+            }
+            function Museum3_show(){
+                document.getElementById("Museum3_map").style.zIndex = "8";
+                document.getElementById("list_museum").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Museum3_map').src = museum3;
+            }
+            function Cinema1_show(){
+                document.getElementById("Cinema1_map").style.zIndex = "8";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Cinema1_map').src = cinema1;
+            }
+            function Cinema2_show(){
+                document.getElementById("Cinema2_map").style.zIndex = "8";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Beauty3_map").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema3_map").style.zIndex = "-1";
+                document.getElementById('Cinema2_map').src = cinema2;
+            }
+            function Cinema3_show(){
+                document.getElementById("Cinema3_map").style.zIndex = "8";
+                document.getElementById("list_cinema").style = "transform: translateY(300%)";
+                document.getElementById("Cafe1_map").style.zIndex = "-1";
+                document.getElementById("Cafe2_map").style.zIndex = "-1";
+                document.getElementById("Cafe3_map").style.zIndex = "-1";
+                document.getElementById("Beauty1_map").style.zIndex = "-1";
+                document.getElementById("Beauty2_map").style.zIndex = "-1";
+                document.getElementById("Beach").style.zIndex = "-1";
+                document.getElementById("Museum1_map").style.zIndex = "-1";
+                document.getElementById("Museum2_map").style.zIndex = "-1";
+                document.getElementById("Museum3_map").style.zIndex = "-1";
+                document.getElementById("Cinema1_map").style.zIndex = "-1";
+                document.getElementById("Cinema2_map").style.zIndex = "-1";
+                document.getElementById('Cinema3_map').src = cinema3;
+            }
+            window.onload = function (){
+            document.getElementById('map').src = map;
+                setTimeout(function(){
+
+                    var preloader = document.getElementById('page-preloader');
+                    preloader.style.visibility = 'hidden';
+                }, 2000)
+            };
+        </script>
+        <title>Project</title>
+        <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+        <script type="text/javascript">
+            var Museum3_map;
+            DG.then(function () {
+                Museum3_map = DG.map('Museum3_map', {
+                    center: [61.78483365488437,34.33084394806564],
+                    zoom: 13
+                });
+                var myIcon = DG.icon({
+                    iconUrl: 'https://pngimg.com/uploads/gps/gps_PNG42.png',
+                    iconSize: [38, 50],
+                });
+                DG.marker([61.78483365488437,34.33084394806564], {icon: myIcon}).addTo(Museum3_map).bindPopup('Полёт');
+            });
+        </script>
+    </head>
+    <body>
+    <div id = 'page-preloader' class = 'preloader'>
+        <div class = 'loader'>
+
+        </div>
+    </div>
+        <div class="wrapper">
+          <div id="menu">
+              <div class = 'container'>
+              <div class="karelia1">дети</div>
+              <div class="karelia2">детям</div>
+              <div class="karelia3">Карелия</div>
+              <div class="top">  Петрозаводск</div>
+              <i class = 'kids'>kids for kids</i>
+              </div>
+            <nav class="menu-list">
+                <a><button style="background-color: white; border: none;">Избранное</button></a>
+                <a><button style="background-color: white; border: none;">Популярное</button></a>
+                <a><button style="background-color: white; border: none;">Special</button></a>
+                <a><button style="background-color: white; border: none;">Настройки</button></a>
+                <h1></h1>
+            </nav>
+              <button class = 'close' onclick = 'Close()'><h1><--</h1></button>
+              <div class="help">
+                  <h1>&middot;Помощь</h1>
+                  <h1>&middot;О проекте</h1>
+                  <h1>&middot;Контакты</h1>
+              </div>
+              <div class = 'footer'>
+            <img src = 'https://avatars.mds.yandex.net/get-pdb/2884738/9f7e9856-9530-4b88-a62f-27b8b8b29bc2/s1200'>
+        </div>
+          </div>
+        </div>
+    <div id='box'><h1 style="z-index: 105; position: absolute; top:27px;margin-left:20px;"><button class = 'button' onclick = 'MyFunction()'>&#9776</button></h1><h2><button class = 'button' style="z-index: 105; position: absolute; margin-top: 30px;right: 10px;">&#128269;</button></h2><input style = 'position: absolute; padding-left: 100px; padding-right: 70px; z-index: 102;' placeholder="Search.. "></div><img id = 'map' style="width: 100%; height: 100%; z-index: 1; position: absolute; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <button class = 'under' onclick="Beauty_open()">  красота  </button><button onclick = "Cafe_open()" class = 'under1' >  кафе  </button><button class = 'under2' onclick="Museum_open()">  музеи  </button><button class = 'under3' onclick="Cinema_open()">  кино  </button></div>
+        <div id="list_cafe"><button style='margin-left: 10%; margin-right: 10%; width:80%; text-align:center; background-color: white; border:none; ' onclick="Cafe_close()"><h1 class = 'h1'>------</h1></button><div class = 'cafe_1'><button onclick="Cafe1_show()" style = 'background-color: white; border: none;'><h1 style = 'font-size: 50px; right: 0;'>The Кухня</h1><div class = 'img'><img src = 'https://ams2-cdn.2gis.com/previews/1081238742406004736/77f3e273-4de7-45b5-b17a-bdf92cb7b9f5/1/image_112x112.png?api-version=2.0'></div><h2 style="padding-top: 10%;position: absolute;" class = 'h2'>Ленина проспект, 7</h2></button></div><div class = 'cafe_2'><h1 style = 'font-size: 50px; padding-left: 5%; '><button onclick="Cafe2_show()" style = 'background-color: white; border: none;'>Бавариус</button></h1><div style="top: 17%; height: 115px; right: 8%; z-index: 65345243521435243; position: absolute;" class = 'img'><img style='height: 150%; width: 150%;' src = "https://ams2-cdn.2gis.com/previews/1028649465558335663/1ef55d26-58b2-45c8-b1c8-0a69fe40d0b3/1/image_112x112.png"></div><h2 class = 'h2' style="padding-top: 10%; position: fixed; padding-left: 4%;">Октябрьский проспект, 13</h2></div><div style="padding-top: 0%; z-index: 47634654352143213; position: absolute;" class = 'cafe_3'><h1 style = 'font-size: 50px; right: 0; padding-top: 5%;padding-left: 5%;'><button onclick="Cafe3_show()" style = 'background-color: white; border: none;'>Ягель</button></h1><div style = 'top: 20%; padding-left: 75%; position: fixed;' class = 'img'><img style='position: fixed; right: 6%; top: 84%; z-index: 634652363452134562; height: 20%; width: 18%;' src = "https://ams2-cdn.2gis.com/previews/1073122351169667075/a4d80536-7958-45d9-b306-7441b79b3e53/1/image_112x112.png"></div><h2 class = 'h2' style="padding-top: 10%; position:fixed;padding-left: 4%;"><button onclick="Cafe3_show()" style = 'background-color: white; border: none;'>Ленина проспект, 7</button></h2></div></div>
+        <div id="list_beauty"><button style='margin-left: 10%; margin-right: 10%; width:80%; text-align:center; background-color: white; border:none; ' onclick="Beauty_close()"><h1 class = 'h1'>------</h1></button><div class = 'beauty_1'><button onclick="Beauty1_show()" style = 'background-color: white; border: none;'><h1 style = 'font-size: 50px; right: 0;'>Beauty Club</h1></button><div style = "width:23%; position: absolute;"class="img"><img style = "width:80%;" src = 'https://instagram.fhen2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/84664443_601207420732304_8044371954683084800_n.jpg?_nc_ht=instagram.fhen2-1.fna.fbcdn.net&_nc_ohc=-qj0Rx5DLBkAX_0K-By&oh=a6b59281569a1d2e84e6e78bfe0323c1&oe=5EAB94F2'></div><h2 style="padding-top: 7%;position: absolute;" class = 'h2'>Октябрьский проспект, 1</h2><h2 style="padding-top: 12%;position: absolute;" class = 'h2'>​Анохина, 37</h2></div><div class = 'beauty_2'><h1 style = 'font-size: 50px; padding-left: 5%;'><button onclick="Beauty2_show()" style = 'background-color: white; border: none;'>Beauty room</button></h1><div style = "width:25%; position: absolute;"class="img"><img style = "width:85%;" src = 'https://sun9-18.userapi.com/c847016/v847016596/d1ef5/YBX5O8nQJKQ.jpg'></div><h2 class = 'h2' style="padding-top: 10%; position: fixed; padding-left: 4%;">Калинина, 1Б</h2></div><div style="padding-top: 0%; z-index: 47634654352143213; position: absolute;" class = 'beauty_3'><h1 style = 'font-size: 50px; right: 0; padding-top: 5%;padding-left: 5%;'><button onclick="Beauty3_show()" style = 'background-color: white; border: none;'>Natural Beauty</button></h1><div style = "width:25%; position: absolute;"class="img"><img style = "width:85%;" src = 'https://sun9-16.userapi.com/c849524/v849524235/7ed90/Z35IDkaCV8w.jpg'></div><h2 class = 'h2' style="padding-top: 10%; position:fixed;padding-left: 4%;">Ленина проспект, 14</h2></div></div>
+        <div id="list_museum"><button style='margin-left: 10%; margin-right: 10%; width:80%; text-align:center; background-color: white; border:none; ' onclick="Museum_close()"><h1 class = 'h1'>------</h1></button><div class = 'museum_1'><button onclick="Museum1_show()" style = 'background-color: white; border: none;'><h1 style = 'font-size: 50px; right: 0;'>Центр воинской славы</h1></button><div style = "width:23%;"class="img"><img style = "width:80%;" src = 'https://slavaptz.ru/wp-content/themes/museum-300519/images/logo-mus.png'></div><h2 style="padding-top: 10%;position: absolute;" class = 'h2'>Ленина проспект, 2</h2></div><div class = 'museum_2'><button onclick="Museum2_show()" style = 'background-color: white; border: none;'><h1 style = 'font-size: 45px; padding-left: 40px;'>Музей Военной истории</h1></button><div style = "width:25%;"class="img"><img style = "width:80%;" src = 'https://sun9-40.userapi.com/c841630/v841630736/2b882/IWQ6o2i6C_4.jpg'></div><h2 class = 'h2' style="padding-top: 10%; position: fixed; padding-left: 4%;">Ригачина, 20А</h2></div><div style="padding-top: 0%; z-index: 47634654352143213; position: absolute;" class = 'museum_3'><button onclick="Museum3_show()" style = 'background-color: white; border: none; margin-top: 5%; padding-left: 2%;'><h1 style = 'font-size: 50px; right: 0; padding-left: 10%;'>Полет</h1></button><div style = "width:25%; "class="img"><img style = "width:83%;" src = 'https://sun9-22.userapi.com/c4856/u107656379/-6/x_e56b57a0.jpg'></div><h2 class = 'h2' style="padding-top: 10%; position:fixed;padding-left: 4%;">​Островского, 26</h2></div></div>
+        <div id="list_cinema"><button style='margin-left: 10%; margin-right: 10%; width:80%; text-align:center; background-color: white; border:none; ' onclick="Cinema_close()"><h1 class = 'h1'>------</h1></button><div class = 'cinema_1'><button onclick="Cinema1_show()" style = 'background-color: white; border: none;'><h1 style = 'font-size: 50px; right: 0;'>Мираж Синема</h1></button><div style = "width:20%;"class="img"><img style = "width:80%;" src = 'https://sun9-32.userapi.com/c824603/v824603937/185243/BVvRMW2iQ-8.jpg'></div><h2 style="padding-top: 6%;position: absolute;" class = 'h2'>Тетрис, Маршала Мерецкова, 11</h2><h2 style="padding-top: 10%;position: absolute;" class = 'h2'>ЛОТОС PLAZA,​Лесной проспект, 47а</h2><h2 style="padding-top: 14%;position: absolute;" class = 'h2'>Макси, Ленина проспект, 14</h2></div><div class = 'cinema_2'><h1 style = 'font-size: 50px; padding-left: 5%; '><button onclick="Cinema2_show()" style = 'background-color: white; border: none;font_size: 70px; font-weight: 600;'>Калевала</button></h1><div style = "width:20%;"class="img"><img style = "width:80%;" src = 'https://sun9-16.userapi.com/c845421/v845421349/1b1d32/abIhnqPAjBk.jpg'></div><h2 class = 'h2' style="padding-top: 10%; position: fixed; padding-left: 4%;">​Первомайский проспект, 2</h2></div><div style="padding-top: 0%; z-index: 47634654352143213; position: absolute;" class = 'cinema_3'><h1 style = 'font-size: 50px; right: 0; padding-top: 5%;padding-left: 5%;'><button onclick="Cinema3_show()" style = 'background-color: white; border: none;'><h1 style="font-size: 50px;">Премьер</h1></button></h1><div style = "width:20%;"class="img"><img style = "width:80%;" src = 'https://avatars.mds.yandex.net/get-pdb/2884560/157b353d-513c-4209-a26e-eda77e86bf4b/s1200'></div><h2 class = 'h2' style="padding-top: 10%; position:fixed;padding-left: 4%;">Правды, 38в</h2></div></div>
+        <button onclick="Places_open1()" style="border-radius: 70px 70px 0 0; bottom:0px; height: 100px; width: 100%; z-index: 36526351; position: fixed;background-color: #c72d2d; color: white;">______________________________________</button>
+        <div id = 'list_places'><button style='border-radius: 70px 70px 0 0; top:0px; height: 100px; width: 100%; z-index: 36526351; position: fixed; color: red; border:none; background-color: white; font-size: 20px;' onclick="Places_open2()">______________________________________</button><h1 style="border-color: white white red white; width: 90%; margin-left: 5%; padding-bottom: 50px; border-style: solid; padding-top: 100px; padding-left: 100px;font-family: 'Open Sans', sans-serif;">Популярное</h1><h1 style="padding-top: 50px; padding-left: 5%; font-size: 50px; color: black; font-weight: bold; position: absolute; z-index: 5234135214352143251; ">Пляж Пески</h1><h1 style="padding-top: 130px; padding-left: 7%; font-size: 30px; color: grey; position: absolute; z-index: 6253142534213521435;">Городской пляж</h1><h1 style="padding-top: 130px; padding-left: 330px; font-size: 30px; color: red; position: fixed; z-index: 6723216312536213;">(временно не работает)</h1><h1 style="padding-top: 170px; padding-left: 7%; font-size: 30px; color: grey; position: absolute; z-index: 2653213123123">30 отзывов</h1><h1 style="padding-top: 170px; padding-left: 250px; font-size: 30px; color: black; font-weight: bold; position: absolute; z-index: 16251524512521;">4.5 &#9733;&#9733;&#9733;&#9733;&#9733;</h1><div style = 'word-break:break-all; width: 70%; margin-top: 220px; height: 100px; font-size: 30px; font-color: grey; padding-left: 55px; z-index: 362153421531232;'>"Пески" - самое популярное место купания у<br> петрозаводчан со всеми вытикающими<br> плюсами и минусами...</div><button onclick="Beach_open()" id = 'button' style="z-index: 1; border: none; margin-top: 30px; margin-left: 50px; width: 300px; height: 70px; background-color: white; font-size: 30px;font-weight: bold;"><i id = 'read_more'><u>Читать подробно..</u></i></button></div>
+        <div style="border-width: 3px; overflow-y: scroll; width: 100%; top: 15%; height: 85%;background-color: white; z-index: 1;position:fixed;border-color: #c72d2d #c72d2d white #c72d2d ;border-style: solid;border-width: 3px;border-radius: 75px 75px 0 0 ; opacity: 0;" id = 'Beach'><h1 style="border-color: white white red white; width: 90%; margin-left: 5%; padding-bottom: 50px; border-style: solid; padding-top: 100px; padding-left: 100px; font-size: 50px;">Пляж Пески</h1><div style="top: 100px; position: absolute; z-index: 524322234567654323456; right: 50px;"><button onclick="Beach_close()" style="background-color: #ffffff; border: none;"><h1><--</h1></button></div><h1 style = 'font-weight: bold; font-size: 50px; padding-top: 50px; padding-left: 75px;'>Описание</h1><h1 style="padding-top: 20px; padding-left: 7%; font-size: 30px; color: grey; position: absolute; z-index: 6253142534213521435;">Городской пляж</h1><h1 style="padding-top: 20px; padding-left: 330px; font-size: 30px; color: red; position: absolute; z-index: 6723216312536213;">(временно не работает)</h1><h1 style="padding-top: 60px; padding-left: 7%; font-size: 30px; color: grey; position: absolute; z-index: 2653213123123">30 отзывов</h1><h1 style="padding-top: 60px; padding-left: 250px; font-size: 30px; color: black; font-weight: bold; position: absolute; z-index: 16251524512521;">4.5 &#9733;&#9733;&#9733;&#9733;&#9733;</h1><div style = 'word-break:break-all; width: 70%; margin-top: 140px; height: 100px; font-size: 30px; color: #756d6d; padding-left: 55px; z-index: 362153421531232;'>"Пески" - самое популярное место купания у<br> петрозаводчан со всеми вытикающими<br> плюсами и минусами...<br><h1></h1>Аномальная жара в мае навевает мысли о<br>том, что скоро можно будет купаться.<br>Конечно, если в июне вдруг не придёт<br>похолодание и не пойдёт снег, а всё может<br>быть. Но даже если купаться нельзя, никто<br>не отменял возможность загарать! Куда же<br>пойти, если нет своей дачи? Пески<br>вряд ли для кого-то это место станет<br>открытием. Пляж располагается в черте<br>города вдоль Соломенского шоссе,<br>добраться можно как на маршрутке, так и<br>на автомобиле. Можно дойти и пешком. Здесь даже есть инфраструктура -<br>кафешки, парковка и база отдыха.<br>Переодеться можно в кабинке для<br>переодевания. И даже для детей будет<br>развлечение - скоро здесь установят<br>надувную горку. Пляж многим нравится тем,<br>что он широкий и просторный. Здесь<br>песчаное дно, удобное для захода. Вот<br>только Онежское озеро капризное, тёплой<br>температурой радует нечасто. Да и мусор<br>может настроение испортить, тут и окурки, и<br>битые стёкла, бутылки и пакеты. Вывод:<br>босиком лучше не ходить, а мусор забирать<br>с собой.</div><img style="padding-left: 20px; padding-top: 1250px;" src = 'https://avatars.mds.yandex.net/get-pdb/2464019/39033674-6ffe-4608-9750-11abe2bab8c1/s1200'><div style = 'height: 50px;'></div><div style="width: 90%; background-color: white;border-style:solid; border-width: 7px; border-color:#B15C5C white #B15C5C white; height:170px;margin-left: 5%; color:#B15C5C; font-size: 50px; padding-left: 7%; line-height: 150px;"><button onclick="show_Beach()" style="background-color: white; border: none; color:#B15C5C;"><img style="left: 50px;height: 100px; width: 150px;" src="https://avatars.mds.yandex.net/get-pdb/2932738/39479f9b-c1ab-43b9-b5af-51fc9f52b313/s1200"><u><i style="font-weight:600;">Показать на карте</i></u></button></div><div style = 'height: 30px;'></div><div style="text-align: center; font-size: 40px;"><u>Сообщить об ошибке</u></div></div>
+        <img id = 'Cafe1_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Cafe2_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Cafe3_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'map_Beach' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Beauty1_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Beauty2_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = "Beauty3_map" style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Museum1_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Museum2_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = "Museum3_map" style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Cinema1_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = 'Cinema2_map' style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+        <img id = "Cinema3_map" style="position: absolute; width: 100%; height: 100%; z-index: -1; -webkit-user-select: none;margin: auto;cursor: zoom-in;" src="">
+    </body>
+</html>
