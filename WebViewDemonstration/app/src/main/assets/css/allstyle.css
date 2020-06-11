@@ -46,17 +46,75 @@ input {
   text-align: right;
 }
 .mesta {
-  width: 930px;
-  height: 135px;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: auto;
+  left: 0%;
+}
+.preloader {
+  /*фиксированное позиционирование*/
+  position: fixed;
+  /* координаты положения */
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  /* фоновый цвет элемента */
+  background-image: url(..//img/bigbackground.png);
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
+  /* размещаем блок над всеми элементами на странице (это значение должно быть больше, чем у любого другого позиционированного элемента на странице) */
+  z-index: 100000000;
+}
+
+.preloader__row {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  margin-left: -35px;
+  text-align: center;
+  animation: preloader-rotate 2s infinite linear;
+}
+
+.preloader__item {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 50%;
+  z-index: 1000000000;
+}
+
+.preloader__item:last-child {
+  top: auto;
+  bottom: 0;
+  animation-delay: -1s;
+}
+
+.loaded_hiding .preloader {
+  transition: 1s opacity;
+  opacity: 0;
+}
+
+.loaded .preloader {
+  display: none;
 }
 .mesta img {
-  padding: 15px; /* Расстояние от картинки до рамки */
-  margin-right: 10px; /* Отступ справа */
-  margin-bottom: 10px; /* Отступ снизу */
+  padding: 10px;
 }
+/*.mesta2 {
+  position: absolute;
+  height: 50%;
+}*/
 .email {
   text-align: 20%;
 }
+
 .otziv {
   position: absolute;
   width: 664.67px;
@@ -69,11 +127,10 @@ input {
   width: 881px;
   height: 614px;
   right: -20px;
-  top: 600px;
+  top: 650px;
 }
 .mestaname {
   position: absolute;
-  width: 335px;
   height: 123px;
   left: 99px;
   top: 127px;
@@ -103,7 +160,7 @@ input {
   width: 1055px;
   height: 1041px;
   left: 0px;
-  top: 1900px;
+  top: 2000px;
   background-color: none;
   border-color: none;
   border: none;
@@ -133,13 +190,13 @@ input {
   position: absolute;
   width: 150px;
   height: 150px;
-  left: 950px;
+  right: -45%;
   top: 200px;
 }
 .upmesta {
   position: absolute;
-  width: 1080px;
-  height: 438px;
+  width: 100%;
+  height: 23%;
   left: -5px;
   top: -5px;
 }

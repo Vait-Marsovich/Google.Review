@@ -1,4 +1,4 @@
-package ru.karelia.rovesnik.webviewdemonstration;
+package com.example.a098sdasdasd7890;
 
 import android.annotation.TargetApi;
 import android.os.Build;
@@ -15,8 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView = findViewById(R.id.webView);
-        webView.loadUrl("https://tetha.ru/ptzgo/"); //  file:///android_asset/index.html;
-        webView.setInitialScale(250);
+        webView.loadUrl("https://maxivimax.github.io/PtzGO/"); //  file:///android_asset/index.html;
+        webView.setInitialScale(300);
         webView.getSettings().setJavaScriptEnabled(true);
 
         webView.setWebViewClient(new MyWebViewClient());

@@ -1,147 +1,117 @@
-<!DOCTYPE html>
-<html>
-  <meta charset="utf-8" />
-  <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-    crossorigin="anonymous"
-  />
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap"
-    rel="stylesheet"
-  />
-  <link rel="stylesheet" href="css/allstyle.css" />
+<!doctype html>
+<html lang="en">
 
-  <head>
-    <link rel="shortcut icon" href="img/icon.png" type="image/png" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <script>
-      function MyFunction() {
-        var x = document.getElementById("menu");
-        x.style = "transform: translate(0%)";
-      }
-      function Close() {
-        var y = document.getElementById("menu");
-        y.style = "transform: translate(-100%)";
-      }
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- <link rel="stylesheet" href="css/allstyle.css" /> -->
+
+  <link href="./css/mmenu.css" rel="stylesheet" />
+  <script src="./js/mmenu.js"></script>
+
+  <script>
+        document.addEventListener(
+            "DOMContentLoaded", () => {
+                new Mmenu("#menu", {
+                    "extensions": [
+                        "pagedim-black",
+                        "theme-dark"
+                    ],
+                    "navbars": [{
+                        "position": "top",
+                        "content": [
+                            "prev",
+                            "title"
+                        ]
+                    }]
+                });
+            }
+        );
     </script>
 
-    <title>PtzGO</title>
+  <title>PtzGO</title>
 
-    <style>
-      body {
-        background: url(img/minibackground.png);
-        -moz-background-size: 100%;
-        -webkit-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 100%;
-        /*ОПтимизация под браузеры*/
-      }
-    </style>
-  </head>
+</head>
 
-  <body>
-    <div class="wrapper">
-      <div id="menu">
-        <nav class="info">
-          <div>Проект выполнен учениками</div>
-          <div>Детского технопарка</div>
-          <div>"Кванториум Сампо"</div>
-        </nav>
-        <div class="kvantorium">kvantorium_sampo</div>
-        <div class="line"></div>
-        <div class="poddde">При поддержке</div>
-        <div class="pmup">ПМУП ”Агенство городского развития”</div>
-        <img class="pmup_image" src="img/podde.png" />
-        <div class="agr10">agr10.ru</div>
-        <div class="footer">
-          <button class="close" onclick="Close()">
-            <img
-              src="img/close.png"
-              alt="Menu"
-              title="Menu"
-              width="100"
-              height="100"
-            />
-          </button>
-        </div>
-      </div>
+
+<body class="container-fluid" style="background-image: url('./img/minibackground.png');">
+
+<!-- The menu -->
+<nav id="menu">
+  <ul>
+    <div class="m-0 p-3 text-left">
+      <p>Проект выполнен учениками Детского Технопарка "Кванториум Сампо"</p>
+      <a href="https://vk.com/kvantorium_sampo">vk.com/kvantorium_sampo</a>
     </div>
-    <div id="box">
-      <h2>
-        <button
-          class="button"
-          style="
-            z-index: 105;
-            position: absolute;
-            margin-top: 27px;
-            right: 10px;
-          "
-        >
-          <img
-            src="img/search.png"
-            alt="Menu"
-            title="Menu"
-            width="60"
-            height="60"
-            style="position: absolute; margin-top: -4px; right: 10px;"
-          />
-        </button>
-      </h2>
-      <input
-        style="
-          background-color: black;
-          padding-left: 100px;
-          padding-right: 70px;
-          z-index: 101;
-          border: 0px solid;
-          margin: auto;
-        "
-        placeholder="Поиск...    "
-      />
-      <div class="boxbott" id="testup"></div>
+    <div class="m-0 p-3  text-left"">
+    <p>При поддержке ПМУП " Агентство городского развития"</p> <p class="text-center"><img
+          src="./img/podde.png" class="w-50"></p>
+    <a href="https://agr10.ru/">agr10.ru</a>
     </div>
+  </ul>
+</nav>
 
-    <div>
-      <button class="info_button" onclick="MyFunction()">
-        <img
-          src="img/info.png"
-          alt="Info"
-          title="Info"
-          width="125"
-          height="125"
-          bottom
-          right
-        />
-      </button>
+<div class="input-group input-group-lg fixed-bottom bg-dark">
+  <div class="input-group-prepend m-0 p-0">
+    <img src="./img/search.png" class="img-fluid input-group-text" id="inputGroup-sizing-lg">
+  </div>
+  <input type="text" class="btn-dark form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="Поиск...">
+</div>
+
+<div class="container-fluid p-0 m-0 fixed-top">
+  <div class="d-flex justify-content-start col-1 m-0 p-0">
+    <a href="#menu">
+      <img class="img-fluid" src="./img/info.png" alt="Info" title="Info">
+    </a>
+  </div>
+</div>
+
+<div class="container-fluid p-0 m-0">
+  <div class="row text-center">
+    <div class="col p-1">
+      <a href="mesta/kalevala.html"><img src="./img/Курган.png" alt="" class="img-fluid"></a>
     </div>
-    <!--<div
-      class="mesta"
-      style="overflow-y: scroll; height: 2900px; width: -1500px;"
-    >
-      <img src="img/mesta.png" />
-    </div>-->
-    <div class="mesta">
-      <a href="mesta/kalevala.html">
-        <img src="img/Калевала.png" alt="" width="450" height="450"
-      /></a>
-
-      <img src="img/Курган.png" alt="" width="450" height="450" />
-
-      <img src="img/Лотос_Плаза.png" alt="" width="450" height="450" />
-
-      <img src="img/Макси.png" alt="" width="450" height="450" />
-
-      <img src="img/Музей_ИЗО.png" alt="" width="450" height="450" />
-
-      <img src="img/Норвей_пуррк.png" alt="" width="450" height="450" />
-
-      <img src="img/Парк_аттрацкионов.png" alt="" width="450" height="450" />
-
-      <img src="img/Прятки_в_темноте.png" alt="" width="450" height="450" />
-
-      <img class="email" src="img/email.png" alt="" />
+    <div class="col p-1">
+      <a href="mesta/lotospl.html"><img src="./img/Лотос_Плаза.png" alt="" class="img-fluid"></a>
     </div>
-  </body>
+    <div class="w-100"></div>
+    <div class="col p-1"><img src="./img/Калевала.png" href="mesta/kalevala.html" alt=""
+                              class="img-fluid"></div>
+    <div class="col p-1">
+      <a href="mesta/maksi.html"><img src="./img/Макси.png" alt="" class="img-fluid"></a>
+    </div>
+    <div class="w-100"></div>
+    <div class="col p-1">
+      <a href="#"><img src="./img/Музей_ИЗО.png" href="#" alt="" class="img-fluid"></a></div>
+    <div class="col p-1">
+      <a href="mesta/norway.html"><img src="./img/Норвей_пуррк.png" alt="" class="img-fluid"></a>
+    </div>
+    <div class="w-100"></div>
+    <div class="col p-1">
+      <a href="#"><img src="./img/Парк_аттрацкионов.png" alt="" class="img-fluid"></a></div>
+    <div class="col p-1">
+      <a href="#"><img src="./img/Прятки_в_темноте.png" alt="" class="img-fluid"></a>
+    </div>
+  </div>
+</div>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+</script>
+
+</body>
+
 </html>
