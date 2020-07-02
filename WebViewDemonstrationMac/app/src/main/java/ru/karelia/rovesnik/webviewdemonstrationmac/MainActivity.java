@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         WebView webView = findViewById(R.id.webView);
-        webView.loadUrl("https://056a72ed.ngrok.io/"); //file:///android_asset/index.html;
+        webView.loadUrl("https://tetha.ru/ptzgo/"); //  file:///android_asset/index.html
+        webView.setInitialScale(100);
         webView.getSettings().setJavaScriptEnabled(true);
 
         webView.setWebViewClient(new MyWebViewClient());
