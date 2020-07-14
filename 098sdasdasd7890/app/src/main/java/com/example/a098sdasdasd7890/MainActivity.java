@@ -1,34 +1,38 @@
 package com.example.a098sdasdasd7890;
 
-import android.annotation.TargetApi;
-import android.os.Build;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-
-import android.webkit.WebResourceRequest;
+import android.view.KeyEvent;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.webkit.WebViewClient;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override protected void onCreate(Bundle savedInstanceState) {
+    private WebView webView;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        WebView webView = findViewById(R.id.webView);
-        webView.loadUrl("https://maxivimax.github.io/PtzGO/"); //  file:///android_asset/index.html;
-        webView.setInitialScale(300);
-        webView.getSettings().setJavaScriptEnabled(true);
+        webView = (WebView) findViewById(R.id.webView);
 
-        webView.setWebViewClient(new MyWebViewClient());
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
 
+        SimpleWebViewClientImpl webViewClient = new SimpleWebViewClientImpl(this);
+        webView.setWebViewClient(webViewClient);
+        webView.getSettings().setUserAgentString("Mozilla/5.0 (Linux; U;` Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17");
+
+        webView.loadUrl("https://habr.com/ru/");
     }
-}
 
-class MyWebViewClient extends WebViewClient {
-    @TargetApi(Build.VERSION_CODES.N)
-    @Override
-    public boolean shouldOverrideUrlLoading(WebView view, WebResourceRequest request) {
-        view.loadUrl(request.getUrl().toString());
-        return true;
-    }
+//    @Override
+//    public boolean onKeyDown(int keyCode, KeyEvent event) {
+//        if ((keyCode == KeyEvent.KEYCODE_BACK) && this.webView.canGoBack()) {
+//            this.webView.goBack();
+//            return true;
+//        }
+//
+//        return super.onKeyDown(keyCode, event);
+//    }
 }

@@ -62,7 +62,12 @@ public class MainActivity extends Activity {
 
         });
 //        web.setInitialScale(1); //300
-        web.loadUrl("https://maxivimax.github.io/PtzGO/run.html");
+//        web.setBackgroundResource(R.drawable.webview);
+
+        web.getSettings().setLoadWithOverviewMode(true);
+        web.getSettings().setUseWideViewPort(true);
+
+        web.loadUrl("https://maxivimax.github.ioPtzGO/run.html");
         web.getSettings().setJavaScriptEnabled(true);
         web.getSettings().setLoadWithOverviewMode(true);
         web.getSettings().setUseWideViewPort(true);

@@ -3,6 +3,9 @@ package ru.karelia.rovesnik.simple;
 import android.content.Intent;
 import android.content.res.AssetFileDescriptor;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,6 +15,22 @@ public class MainPlaces extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_places);
+
+        Button tetris_button = (Button)findViewById(R.id.button_tetris);
+
+        tetris_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try{
+                    Intent intent  = new Intent(MainPlaces.this, Tetris.class);
+                    startActivity(intent);
+                    finish();
+                } catch (Exception e) {
+
+                }
+            }
+        });
+
     }
 
 //    @Override
@@ -22,4 +41,6 @@ public class MainPlaces extends AppCompatActivity {
 //
 //        }
 //    }
+    //Button  o  fusion
+
 }
