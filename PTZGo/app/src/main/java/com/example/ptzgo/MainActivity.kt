@@ -1,15 +1,19 @@
-package ru.karelia.rovesnik.kotlinnacher
+package com.example.ptzgo
 
 import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
+import android.view.KeyEvent.ACTION_UP
+import android.view.KeyEvent.KEYCODE_BACK
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,7 +38,15 @@ class MainActivity : AppCompatActivity() {
         } else {
             web_view.loadUrl("file:///android_asset/inet.html")
         }
+    }
 
+    override fun onKeyDown(keyCode: Int, event: KeyEvent?): Boolean {
 
+        if (keyCode == KeyEvent.KEYCODE_BACK && webView.canGoBack()) {
+            webView.goBack()
+            return true
+        }
+
+        return super.onKeyDown(keyCode, event)
     }
 }
