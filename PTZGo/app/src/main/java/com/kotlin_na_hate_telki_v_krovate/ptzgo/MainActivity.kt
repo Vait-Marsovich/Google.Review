@@ -1,4 +1,4 @@
-package com.example.ptzgo
+package com.kotlin_na_hate_telki_v_krovate.ptzgo
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -6,8 +6,6 @@ import android.net.NetworkInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
-import android.view.KeyEvent.ACTION_UP
-import android.view.KeyEvent.KEYCODE_BACK
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import kotlinx.android.synthetic.main.activity_main.*
@@ -33,8 +31,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        ////
+
         if (activeNetwork?.isConnectedOrConnecting  == true)  {
-            web_view.loadUrl("https://maxivimax.github.io/newPtzGO/run.html")
+            web_view.loadUrl("https://maxivimax.github.io/newPtzGO/run.html") //https://maxivimax.github.io/newPtzGO/run.html
         } else {
             web_view.loadUrl("file:///android_asset/inet.html")
         }

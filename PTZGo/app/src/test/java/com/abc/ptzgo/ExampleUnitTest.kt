@@ -1,4 +1,4 @@
-package com.example.ptzgo
+package com.abc.ptzgo
 
 import org.junit.Test
 

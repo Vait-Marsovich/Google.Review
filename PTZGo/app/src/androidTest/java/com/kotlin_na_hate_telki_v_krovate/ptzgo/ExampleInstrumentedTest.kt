@@ -1,4 +1,4 @@
-package ru.karelia.rovesnik.kotlinnacher
+package com.kotlin_na_hate_telki_v_krovate.ptzgo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("ru.karelia.rovesnik.kotlinnacher", appContext.packageName)
+        assertEquals("com.example.ptzgo", appContext.packageName)
     }
 }

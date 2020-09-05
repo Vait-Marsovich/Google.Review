@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.ptzgo">
+    package="com.kotlin_na_hate_telki_v_krovate.ptzgo">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -14,7 +14,7 @@
         android:theme="@style/AppTheme"
         android:screenOrientation="portrait"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.kotlin_na_hate_telki_v_krovate.ptzgo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
